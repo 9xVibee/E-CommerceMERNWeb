@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <nav className="header">
       <Link to={"/"} onClick={() => setIsOpen(false)}>
-        Home
+        HOME
       </Link>
       <Link to={"/search"} onClick={() => setIsOpen(false)}>
         <FaSearch />
